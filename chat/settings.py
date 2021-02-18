@@ -22,7 +22,7 @@ PROJECT_ROOT = BASE_DIR
 # See https://docs.djangoproject.com/en/dev/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'ABC1234' #TODO Changeme
+SECRET_KEY = 'dle-0)$w$#__hf==&9ai7lv2e@6#xu0)qua7-cpps%%!56#n58'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True

@@ -25,7 +25,7 @@ PROJECT_ROOT = BASE_DIR
 SECRET_KEY = 'dle-0)$w$#__hf==&9ai7lv2e@6#xu0)qua7-cpps%%!56#n58'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 # Application definition
 

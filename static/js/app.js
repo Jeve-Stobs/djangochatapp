@@ -62,9 +62,7 @@ function sendMessage(recipient, body) {
     $.post('/api/v1/message/', {
         recipient: recipient,
         body: body
-    }).fail(function () {
-        alert('Error! Check console!');
-    });
+    }).fail(function () {});
 }
 
 function setCurrentRecipient(username) {
@@ -89,10 +87,10 @@ $(document).ready(function () {
     updateUserList();
     disableInput();
 
-//    let socket = new WebSocket(`ws://127.0.0.1:8000/?session_key=${sessionKey}`);
-    var socket = new WebSocket(
-        'ws://' + window.location.host +
-        '/ws?session_key=${sessionKey}')
+//    let socket = new WebSocket(`wss://127.0.0.1:8000/?session_key=${sessionKey}`);
+   var socket = new WebSocket(
+		"wss://" + window.location.host + "/wss?session_key=${sessionKey}"
+	);
 
     chatInput.keypress(function (e) {
         if (e.keyCode == 13)

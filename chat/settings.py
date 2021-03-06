@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'chat.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'chat',
+        'NAME': 'mydb',
         'USER': 'root',
         'PASSWORD': 'SteveJobs12',
         'OPTIONS': {
